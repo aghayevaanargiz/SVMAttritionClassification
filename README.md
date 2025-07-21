@@ -49,8 +49,7 @@ The dataset used in this project is available on Kaggle:
 ## Observations & Analysis
 
 - The model performed well overall, with decent average precision and F1-score.
-- **Slight overfitting** was observed in the learning curve — training performance was higher than test performance in some folds.
-- This overfitting is **likely due to the data imbalance** despite applying SMOTE.
+- **Slight overfitting** was observed in the learning curve, training performance was higher than test performance in some folds.
 - Class 1 (attrition = "Yes") was harder to classify correctly.
 - Applying SMOTE improved **recall on the minority class**, but required careful tuning of the SVM to maintain balance across metrics.
 
